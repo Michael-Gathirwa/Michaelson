@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #payment {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .booking-details {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .booking-details h3 {
+    margin-top: 0;
+  }
+  
+  .booking-details p {
+    margin-bottom: 10px;
+  }
+  
+  #payment-form {
+    margin-top: 20px;
+  }
+  
+  #payment-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #payment-form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #payment-form button {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

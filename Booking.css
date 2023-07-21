@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background:rgb(27, 148, 189);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    animation: mymove 10s infinite;
+  }
+    @keyframes mymove {
+  0%{background-color: rgb(27, 148, 189);}
+  25%{background-color: rgb(107, 219, 107);}
+      
+    }
+   
+  #booking-form {
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  form {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form input[type="submit"] {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
