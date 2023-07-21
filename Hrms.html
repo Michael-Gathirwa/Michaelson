@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Payment</title>
+  <link rel="stylesheet" type="text/css" href="Hrms.css">
+</head>
+<body>
+  <header>
+    <h1>House Rental Management System</h1>
+  </header>
+
+  <section id="payment">
+    <h2>Payment</h2>
+    <div class="booking-details">
+      <h3>Booking Details</h3>
+      <p>Property: Property 1</p>
+      <p>Check-in: 2023-06-01</p>
+      <p>Check-out: 2023-06-10</p>
+      <p>Total Amount: $1000</p>
+    </div>
+    <form id="payment-form">
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" required>
+      
+      <label for="expiry-date">Expiry Date:</label>
+      <input type="text" id="expiry-date" required>
+
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" required>
+
+      <button type="submit">Pay Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 House Rental Management System. All rights reserved.</p>
+  </footer>
+</body>
+</html>
