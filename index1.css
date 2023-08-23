@@ -10,11 +10,6 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
-  animation: mymove 10s infinite;
-}
-  @keyframes mymove {
-0%{background-color: rgb(27, 148, 189);}
-25%{background-color: rgb(107, 219, 107);}
     
   }
 
