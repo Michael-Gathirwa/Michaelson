@@ -8,19 +8,20 @@ body {
 header {
   background:rgb(27, 148, 189);
   color: #fff;
-  padding: 20px;
+  padding: none;
   text-align: center;
     
   }
 
 #property-listing {
   margin: 2px auto;
-  max-width: 900px;  
+  max-width: px;  
 }
 
 .property-card-container{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+display: flex;
+border: none;
+
 
 }
 .property-card {
@@ -29,7 +30,7 @@ grid-template-columns: 1fr 1fr 1fr;
   border: 1px solid #ddd;
   border-radius: 30px;
   margin-bottom: 20px;
-  padding: 30px;
+  padding:10px;
   float: left;
   position: relative;
   box-sizing: border-box;
@@ -42,8 +43,9 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 
 .property-card img {
-  width: 50%;
-  height: 20%;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
 }
 
 .property-card h3 {
@@ -63,7 +65,7 @@ grid-template-columns: 1fr 1fr 1fr;
 footer {
   background-color: #333;
   color: rgba(55, 133, 197, 0.74);
-  padding: 20px;
+  padding: 2px;
   text-align: center;
   position:bottom
   
