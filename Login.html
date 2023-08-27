@@ -1,0 +1,48 @@
+<html> 
+ <head>
+	<title>LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="regstyles.css">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+ </head>
+ <body>
+   <div class="container">
+     <div class="card">
+ 	  <div class="card-front">
+ 	   <h2>LOGIN</h2>
+ 	   <form>
+ 	   <input type="email" class="input-box" placeholder="Email"required><br>
+ 	   <input type="Password" class="input-box" placeholder="Password"> 
+ 	   <button type="submit" class="submit-btn">Submit</button>
+ 	   <br><input type="checkbox"><span>Remember me</span>
+ 	   </form>
+ 	<a href="reg1.html" target="_parent">Register</a>
+	<a href="">Forgot Password</a> 
+	<button id="google-signin-button" class="google-icon-button">
+        <i class="fab fa-google"></i> Sign in with Google
+    </button>
+ 	  </div>  
+    </div>
+   </div>	
+ <script>
+	// Initialize the Google Sign-In API
+	gapi.load('auth2', function() {
+		gapi.auth2.init({
+			client_id: 'YOUR_CLIENT_ID',
+		});
+		
+		// Attach Google Sign-In behavior to the button
+		var signInButton = document.getElementById('google-signin-button');
+		gapi.auth2.getAuthInstance().attachClickHandler(signInButton, {},
+			function(googleUser) {
+				// Handle sign-in success here
+				console.log('Signed in as: ' + googleUser.getBasicProfile().getName());
+			},
+			function(error) {
+				// Handle sign-in error here
+				console.error('Error signing in: ' + error);
+			}
+		);
+	});
+	</script>
+ </body>
+</html>
