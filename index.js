@@ -4,7 +4,7 @@ window.location.href="Property Details.html"
 
 gapi.load('auth2', function() {
     gapi.auth2.init({
-        client_id: 'YOUR_CLIENT_ID',
+        client_id:'1034597127860-5itdld7regmmgkee831iankbss67fcou.apps.googleusercontent.com',
     });
     
     var signInButton = document.getElementById('google-signin-button');
@@ -18,3 +18,5 @@ gapi.load('auth2', function() {
         }
     );
 });
+
+
