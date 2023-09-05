@@ -27,7 +27,7 @@
       <input type="date" id="check-out" name="check-out" required>
 
       <input id="mysubmit" type="submit">
-      <button id="mybutton" style="display: none;">Payment</button>
+      <button id="mybutton" style="display: none;" onclick="payment()">Payment</button>
 
     </form>
   </section>
@@ -42,6 +42,9 @@
     mysubmit.addEventListener("click", () => {
         mybutton.style.display = "block"
     });
+    function payment(){
+window.location.href=""
+}
   </script>
 </body>
 </html>
