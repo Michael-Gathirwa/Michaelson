@@ -1,6 +1,6 @@
 function naksVegas(){
-window.location.href="Property Details.html"
-}
+    window.location.href="Property Details.html"
+    }
 
 gapi.load('auth2', function() {
     gapi.auth2.init({
