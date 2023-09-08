@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(rgb(129, 255, 129), rgb(104, 217, 255));
+
   }
   
   header {
@@ -20,6 +22,8 @@ body {
   #booking-form {
     margin: 20px auto;
     max-width: 400px;
+    background: linear-gradient(rgb(104, 217, 255));
+
   }
   
   form {
@@ -27,6 +31,8 @@ body {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 20px;
+    background: linear-gradient(rgb(129, 255, 129), rgb(104, 217, 255));
+
   }
   
   form label {
@@ -43,6 +49,8 @@ body {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    background: linear-gradient(rgb(175, 223, 175));
+
   }
   
   form input[type="submit"] {
