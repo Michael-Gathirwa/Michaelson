@@ -1,54 +1,22 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  #user-dashboard {
-    margin: 20px auto;
-    max-width: 800px;
-  }
-  
-  .user-profile,
-  .bookings {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-  
-  .user-profile h3,
-  .bookings h3 {
-    margin-top: 0;
-  }
-  
-  .user-profile p {
-    margin-bottom: 10px;
-  }
-  
-  .user-profile a,
-  .bookings a {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 15px;
-    text-decoration: none;
-    margin-top: 10px;
-    border-radius: 4px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  
+/* Basic styling for the property list and details */
+#property-list {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+#property-details {
+  float: left;
+  width: 70%;
+  padding: 20px;
+}
+
+.property-item {
+  margin-bottom: 10px;
+}
+
+/* Add your custom styles here */
