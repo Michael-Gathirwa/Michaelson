@@ -70,3 +70,4 @@ async function fetchData(url) {
     populateTenantManagement();
   });
   
+  showSection(dashboardSection);
