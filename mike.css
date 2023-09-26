@@ -3,11 +3,12 @@ body, h1, h2, ul {
     margin: 0;
     padding: 0;
     
+    
 }
 
 /* Basic styling for the header */
 header {
-    background: linear-gradient(rgb(129, 255, 129), rgb(104, 217, 255));
+    background: linear-gradient(rgb(129, 255, 129), rgb(104, 217, 255));;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -41,7 +42,7 @@ section {
     margin-bottom: 30px;
     padding: 20px;
     border: 1px solid #ccc;
-    background: linear-gradient(rgb(129, 255, 129), rgb(104, 217, 255));
+    background-color: #f5f5f5;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     display: ;
 }
@@ -63,7 +64,7 @@ footer {
 }
 
 .summary-card {
-    background: linear-gradient(rgb(129, 255, 129), rgb(104, 217, 255));
+    background-color: #f5f5f5;
     border: 1px solid #ddd;
     padding: 10px;
     margin: 10px;
@@ -84,7 +85,7 @@ footer {
 
 /* Styling for the Tenant Management section */
 #tenant-management {
-    background: linear-gradient(rgb(129, 255, 129), rgb(104, 217, 255));
+    background-color: #fff;
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -136,7 +137,7 @@ footer {
 }
 
 .add-tenant-form button {
-    background: linear-gradient(rgb(129, 255, 129), rgb(104, 217, 255));
+    background-color: #007BFF;
     color: #fff;
     padding: 10px;
     border: none;
