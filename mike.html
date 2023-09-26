@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="mike.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Properties</a></li>
+                <li><a href="#">Tenants</a></li>
+                <li><a href="#">Finances</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="dashboard-summary">
+         <h2>Dashboard Summary</h2>
+        <div class="summary-card">
+            <h3>Total Properties</h3>
+            <p>50</p>
+        </div>
+        <div class="summary-card">
+            <h3>Total Tenants</h3>
+            <p>120</p>
+        </div>
+        <div class="summary-card">
+            <h3>Total Rent Income</h3>
+            <p>$25,000</p>
+        </div>
+        </section>
+
+        <section id="property-management">
+            <h2>Property Management</h2>
+            
+            <!-- Property List -->
+            <div class="property-list">
+                <h3>Property List</h3>
+                <ul>
+                    <li></li>
+                    <li>Property 2</li>
+                    <!-- Add more property items here -->
+                </ul>
+            </div>
+            
+            <!-- Add Property Form -->
+            <div class="add-property-form">
+                <h3>Add New Property</h3>
+                <form>
+                    <label for="propertyName">Property Name:</label>
+                    <input type="text" id="propertyName" name="propertyName" required>
+                    <label for="propertyAddress">Property Address:</label>
+                    <input type="text" id="propertyAddress" name="propertyAddress" required>
+                    <!-- Add more input fields as needed -->
+                    <button type="submit">Add Property</button>
+                </form>
+            </div>
+         </section>
+
+        <section id="tenant-management">
+            <h2>Tenant Management</h2>
+            
+            <!-- Tenant List -->
+            <div class="tenant-list">
+                <h3>Tenant List</h3>
+                <ul>
+                    <li>Tenant 1</li>
+                    <li>Tenant 2</li>
+                    <!-- Add more tenant items here -->
+                </ul>
+            </div>
+            
+            <!-- Add Tenant Form -->
+            <div class="add-tenant-form">
+                <h3>Add New Tenant</h3>
+                <form>
+                    <label for="tenantName">Tenant Name:</label>
+                    <input type="text" id="tenantName" name="tenantName" required>
+                    <label for="tenantEmail">Tenant Email:</label>
+                    <input type="email" id="tenantEmail" name="tenantEmail" required>
+                    <!-- Add more input fields as needed -->
+                    <button type="submit">Add Tenant</button>
+                </form>
+            </div>
+
+
+        </section>
+
+        <section id="finance-management">
+            <h2>Finance Management</h2>
+        
+        <!-- Financial Summary -->
+        <div class="financial-summary">
+            <h3>Financial Summary</h3>
+            <p>Total Income: $50,000</p>
+            <p>Total Expenses: $15,000</p>
+            <p>Net Income: $35,000</p>
+        </div>
+        
+        <!-- Income and Expense Tracking -->
+        <div class="income-expense-tracking">
+            <h3>Income and Expense Tracking</h3>
+            <!-- Add income and expense entries here -->
+        </div>          
+        </section>
+
+        <section id="settings">
+            <h2>Settings</h2>
+            
+            <!-- General Settings -->
+            <div class="general-settings">
+                <h3>General Settings</h3>
+                <form>
+                    <label for="systemName">System Name:</label>
+                    <input type="text" id="systemName" name="systemName">
+                    <label for="timezone">Timezone:</label>
+                    <select id="timezone" name="timezone">
+                        <option value="gmt">GMT (Greenwich Mean Time)</option>
+                        <option value="est">EST (Eastern Standard Time)</option>
+                        <!-- Add more timezone options here -->
+                    </select>
+                    <!-- Add more settings fields as needed -->
+                    <button type="submit">Save Settings</button>
+                </form>
+            </div>
+            
+            <!-- User Management -->
+            <div class="user-management">
+                <h3>User Management</h3>
+                <!-- Add user management controls here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Company Name</p>
+    </footer>
+</body>
+<script src="mike.js"></script>
+</html>
+
+    
