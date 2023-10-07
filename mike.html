@@ -12,7 +12,7 @@
         <nav>
             <ul>
                 <li><a href="index1.html" target="_parent">Home</a></li>
-                <li><a href="">Dashboard</a></li>
+                <li><a href="mike.html">Dashboard</a></li>
                 <li><a href="PropertiesDash.html">Properties</a></li>
                 <li><a href="TenantDash.html">Tenants</a></li>
                 <li><a href="Finance.html">Finances</a></li>
@@ -37,8 +37,137 @@
             <p>Ksh.250,000</p>
         </div>
         </section>
-
-            </main>
+        <section id="property-management">
+            <h2>Property Management</h2>
+            
+            <!-- Property List -->
+            <div class="property-list">
+                <h3>Property List</h3>
+                <ul>
+                    <li><a href="Nakuru.html">Nakuru</a></li>
+                    <li><a href="Nairobi.html">Nairobi</a></li>
+                    <li><a href="Kisumu.html">Kisumu</a></li>
+                    <li><a href="Eldoret.html">Eldoret</a></li>
+                    <li><a href="Mombasa.html">Mombasa</a></li>
+                    
+                </ul>
+            </div>
+            
+        
+            <div class="add-property-form">
+                <h3>Add New Property</h3>
+                <form>
+                    <label for="propertyName">Property Name:</label>
+                    <input type="text" id="propertyName" name="propertyName" required>
+                    <label for="propertyAddress">Property Address:</label>
+                    <input type="text" id="propertyAddress" name="propertyAddress" required>
+                    <!-- Add more input fields as needed -->
+                    <button type="submit">Add Property</button>
+                </form>
+            </div>
+         </section>
+        
+        <section id="tenant-management">
+            <h2>Tenant Management</h2>
+            
+            <!-- Tenant List -->
+            <div class="tenant-list">
+                <h3>Tenant List</h3>
+                <ul>
+                    <li>Room No 1: Michael </li>
+                    <li>Room No 2: Martin </li>
+                    <li>Room No 3: Stephen </li>
+                    <li>Room No 4: Ian </li>
+                    <li>Room No 5:Kiberenge</li>
+                    <li>Room No 6:Kariuki</li>
+                    <li>Room No 7:Mburu</li>
+                    <li>Room No 8:Mugothi</li>
+                    <li></li>
+                    <!-- Add more tenant items here -->
+                </ul>
+            </div>
+            
+            <!-- Add Tenant Form -->
+            <div class="add-tenant-form">
+                <h3>Add New Tenant</h3>
+                <form>
+                    <label for="tenantName">Tenant Name:</label>
+                    <input type="text" id="tenantName" name="tenantName" required>
+                    <label for="tenantEmail">Tenant Email:</label>
+                    <input type="email" id="tenantEmail" name="tenantEmail" required>
+                    <!-- Add more input fields as needed -->
+                    <button type="submit">Add Tenant</button>
+                </form>
+            </div>
+        
+        
+        </section>
+        
+        <section id="finance-management">
+            <h2>Finance Management</h2>
+        
+        <!-- Financial Summary -->
+        <div class="financial-summary">
+            <h3>Financial Summary</h3>
+            <p>Total Income: Ksh.1,000,000</p>
+            <p>Total Expenses: Ksh.40000</p>
+            <p>Net Income: Ksh.7,000,000</p>
+        </div>
+        
+        <!-- Income and Expense Tracking -->
+        <div class="income-expense-tracking">
+            <h3>Income and Expense Tracking</h3>
+            <!-- Add income and expense entries here -->
+        </div>          
+        </section>
+        
+        <section id="settings">
+            <h2>Settings</h2>
+            
+            <!-- General Settings -->
+            <div class="general-settings">
+                <h3>General Settings</h3>
+                <form>
+                    <label for="systemName">System Name:</label>
+                    <input type="text" id="systemName" name="systemName">
+                    <label for="timezone">Timezone:</label>
+                    <select id="timezone" name="timezone">
+                        <option value="gmt">GMT (Greenwich Mean Time)</option>
+                        <option value="est">EST (Eastern Standard Time)</option>
+                        <!-- Add more timezone options here -->
+                    </select>
+                    <!-- Add more settings fields as needed -->
+                    <button type="submit">Save Settings</button>
+                </form>
+            </div>
+            
+            <!-- User Management -->
+            <div class="user-management">
+                <h3>User Management</h3>
+                <div class="user-list">
+                    <h3>User List</h3>
+                    <ol>
+                        <li>ADMIN: Michael Kiberenge</li>
+                        <!-- Add more user items here -->
+                    </ol>
+                </div>
+                
+                <!-- Add User Form -->
+                <div class="add-user-form">
+                    <h3>Add New User</h3>
+                    <form>
+                        <label for="userName">Username:</label>
+                        <input type="text" id="userName" name="userName" required>
+                        <label for="userEmail">Email:</label>
+                        <input type="email" id="userEmail" name="userEmail" required>
+                        <!-- Add more input fields as needed -->
+                        <button type="submit">Add User</button>
+                    </form>
+                </div>
+                <!-- Add user management controls here -->
+            </div>
+        </section>
+        
 
     <footer>
         <p>&copy; 2023 Your Company Name</p>
