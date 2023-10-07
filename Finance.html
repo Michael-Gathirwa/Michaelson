@@ -31,8 +31,35 @@
 <!-- Income and Expense Tracking -->
 <div class="income-expense-tracking">
     <h3>Income and Expense Tracking</h3>
-    <!-- Add income and expense entries here -->
-</div>          
+</div>
+<div id="myChart" style="max-width:700px; height:400px">
+<canvas id="myChart" style="width:100%;max-width:600px">d</canvas>
+</div>
 </section>
+
     </body>
+<script src="https://www.gstatic.com/charts/loader.js">
+const xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+const yValues = [55, 49, 44, 24, 15];
+const barColors = ["red", "green","blue","orange","brown"];
+
+new Chart("myChart", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "World Wine Production 2018"
+    }
+  }
+});
+
+</script>
 </html>
