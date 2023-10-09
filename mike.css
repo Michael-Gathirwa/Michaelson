@@ -230,3 +230,9 @@ float: ;
 display: ;
 
 }
+
+.property-list::after {
+    content: "";
+    display: table;
+    clear: both;
+}
